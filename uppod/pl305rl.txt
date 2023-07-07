@@ -1,0 +1,1 @@
+{"playlist":[{"comment":"rl512k","file":"rtmp://kprf-htlive-rts.cdn.ngenix.net/live/_definst_/stream_low"},{"comment":"rl1024k","file":"rtmp://kprf-htlive-rts.cdn.ngenix.net/live/_definst_/stream_high"},{"comment":"","file":""}]}

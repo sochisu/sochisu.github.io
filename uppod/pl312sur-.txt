@@ -1,0 +1,1 @@
+﻿{"playlist":[{"comment":"sur360k","file":"http://cdna.telesur.ultrabase.net/mbliveMain/360p/playlist.m3u8"},{"comment":"sur480k","file":"http://cdna.telesur.ultrabase.net/mbliveMain/480p/playlist.m3u8"},{"comment":"sur720k","file":"http://cdna.telesur.ultrabase.net/mbliveMain/hd/playlist.m3u8"}]}
