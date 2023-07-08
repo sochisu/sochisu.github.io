@@ -1,0 +1,22 @@
+AddDefaultCharset UTF-8
+
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^.*$ $0.html [L,QSA]
+RewriteCond %{THE_REQUEST} ([^\s]*)\.html(\?[^\s]*)?
+RewriteRule (.*) %1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.htm -f
+RewriteRule ^.*$ $0.htm [L,QSA]
+RewriteCond %{THE_REQUEST} ([^\s]*)\.htm(\?[^\s]*)?
+RewriteRule (.*) %1 [R=301,L]
+
+RewriteRule ^/.htaccess$ - [G]
+
+Options All -Indexes
