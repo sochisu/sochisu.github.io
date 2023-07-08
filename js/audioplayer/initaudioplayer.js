@@ -1,6 +1,6 @@
 jQuery(document).ready(function(){
 
-    var jsFolder = "http://susochi.ga/js/audioplayer/";
+    var jsFolder = "https://sochisu.github.io/js/audioplayer/";
 
     jQuery("#audio-player").amazingaudioplayer({
 
