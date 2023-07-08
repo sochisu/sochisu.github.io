@@ -1,0 +1,74 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN">
+<html>
+<head>
+<meta http-equiv="content-language" content="ru">
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="MobileOptimized" content="width">
+<meta name="HandheldFriendly" content="true">
+<meta name="robots" content="index,follow">
+<meta name="description" content="Онлайн редактор HTML кода веб-страниц, визуальный редактор для веб-мастеров | Online HTML code editor for web pages, visual editor for webmasters">
+<meta name="keywords" content="html editor, html-редактор, real-time html editor, html-редактор в реальном времени, free html editor, бесплатный редактор html, web design, веб-дизайн, web site, веб-сайт, web page, веб-страница, webmaster, веб-мастер">
+<meta property="og:title" content="Online HTML Editor (Free) :: Real-Time WYSIWYG">
+<meta property="og:type" content="website">
+<meta property="og:description" content="Онлайн редактор HTML кода веб-страниц, визуальный редактор для веб-мастеров | Online HTML code editor for web pages, visual editor for webmasters">
+<meta property="og:url" content="/editor">
+<meta property="og:image" content="/img/code-editor-html.jpg">
+<title>Online HTML Editor (Free) :: Real-Time WYSIWYG</title>
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="image_src" href="/img/code-editor-html.jpg">
+<script type="text/javascript">
+var editboxHTML =
+'<html class="expand close">'+
+'<head>'+
+'<style type="text\/css">'+
+'.expand{width:100%;height:100%;}'+
+'.close{border:none;margin:0;padding:0;}'+
+'html,body{overflow:hidden;}'+
+'<\/style>'+
+'<\/head>'+
+'<body class="expand close" onload="document.f.ta.focus();document.f.ta.select();">'+
+'<form class="expand close" name="f">'+
+'<textarea class="expand close" style="padding:5px;background:#f0f0f0;font-family:«Courier New»,Courier,Consolas,monospace;font-size:13px;color:black;" name="ta" wrap="hard" spellcheck="false">'+
+'<\/textarea>'+
+'<\/form>'+
+'<\/body>'+
+'<\/html>';
+var defaultStuff = '<br\/><h2 align="center">Real-time HTML Editor!<\/h2>\n'+
+'<center><em>редактор HTML в реальном времени<\/em><\/center>\n';
+var extraStuff = '<div style="position:fixed;top:0;left:8px;"><p><a href="\/" style="color:#bababa;text-decoration:none;" alt="Radio & TV" title="Home\/главная" target="_top">&#9618;<\/a><\/p><\/div><div style="margin:10% 50%;"><a href="\/redact" style="color:red;text-decoration:none;" alt="Online HTML Redactor" title="horizontal \/ горизонтально" target="_top">&#8596;&nbsp;&nbsp;<\/a><\/div><div style="position:fixed;bottom:5px;left:10px;font-family:Arial,Tahoma,sans-serif;font-size:16px;"><p>&copy;&nbsp; <a href="https:\/\/sites.google.com\/site\/susochi" style="color:black;text-decoration:none;" target="_blank" alt="ПреКрасный…Сочи Red Sochi SU SuSochi.Ga Gagra">BeautifulRed…Sochi<\/a> &nbsp; <a href="https:\/\/www.000webhost.com" target="_blank"><img alt="w" src="\/img\/000webhost.com.ico" title="Free Web Hosting" height="13px" width="13px" style="border:0;border-color:white;"\/><\/a><\/p><\/div>';
+var old = '';
+function init()
+{
+  window.editbox.document.write(editboxHTML);
+  window.editbox.document.close();
+  window.editbox.document.f.ta.value = defaultStuff;
+  update();
+}
+function update()
+{
+  var textarea = window.editbox.document.f.ta;
+  var d = dynamicframe.document;
+  if (old != textarea.value) {
+    old = textarea.value;
+    d.open();
+    d.write(old);
+  if (old.replace(/[\r\n]/g,'') == defaultStuff.replace(/[\r\n]/g,''))
+    d.write(extraStuff);
+    d.close();
+  }
+  window.setTimeout(update,150);
+}
+</script>
+</head>
+<frameset resizable="yes" cols="50%,*" onload="init();">
+  <frame name="editbox" src="javascript:'';">
+  <frame name="dynamicframe" src="javascript:'';">
+</frameset>
+<!--
+	Help – Ƀ   1HErW1F7Qs4hZKHrokfBXFLmXtWviK88pa
+	Помочь – ₽ https://yoomoney.ru/to/410013694885719
+	Радио и ТВ https://SochiSU.github.io
+-->
+ </html>
