@@ -1,6 +1,6 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?&weight=60&size=45&pause=1000&color=F00400&vCenter=true&width=1000&lines=Радио+/+ТВ+/+Музыка+/+Гаджет)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?&weight=60&size=50&pause=1000&color=F00400&vCenter=true&width=1000&lines=Радио+/+ТВ+/+Музыка+/+Гаджет)](https://git.io/typing-svg)
 
-- # <a href="https://sochisu.github.io" target="_blank" alt="">https://SochiSU.GitHub.io</a>
+# <a href="https://sochisu.github.io" target="_blank" alt="">SochiSU.GitHub.io</a>
 ---
 ## ✅ **`new` IPTV & IP Radio PlayList Page**
 
