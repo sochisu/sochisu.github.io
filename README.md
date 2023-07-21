@@ -33,7 +33,7 @@
 <tr><td><li>HTML Editor :: Редактор HTML</li></td><td><a href="https://sochisu.github.io/editor" target="_blank" alt="Online HTML Editor (Free) :: Real-Time WYSIWYG" title="Online HTML Code Editor">https://sochisu.github.io/editor</a></td></tr>
 <tr><td><li>Stream Test :: Тест IPTV IP-радио</li></td><td><a href="https://sochisu.github.io/tester" target="_blank" alt="VLC Stream Tester :: Тест IPTV IP-радио" title="VLC Player & Playlist Creator"><s>https://sochisu.github.io/tester</s></a></td></tr>
 <tr><td><li>BeautifulRedSochi :: Html5 Radio</li></td><td><a href="https://sochisu.github.io/htm5" target="_blank" alt="Radio Player HTML5 :: IP-радио" title="Mobile Radio">https://sochisu.github.io/htm5</a></td></tr>
-<tr><td><li>IPTV PlayList – <a href="http://bit.ly/susochi" target="_blank" alt="SuSochi.m3u Playlist for IP-TV Player" title="HTTP m3u Download or Copy and paste the PlayList link into the IPTV Player">Sochi</a> &nbsp;<a href="https://bit.ly/SUSOCHI" target="_blank" alt="SochiSU.m3u" title="HTTPS m3u Download or Copy and paste the PlayList link into the IPTV Player">SU &nbsp;m3u</a></li></td><td><a href="https://sochisu.github.io/SochiSU" target="_blank" alt="borpas.info/iptvplayer" title="PlayList for IPTV Player">https://sochisu.github.io/SochiSU</a></td></tr>
+<tr><td><li>IPTV PlayList – <a href="http://bit.ly/sochisu" target="_blank" alt="SuSochi.m3u Playlist for IP-TV Player" title="HTTP m3u Download or Copy and paste the PlayList link into the IPTV Player">Sochi</a> &nbsp;<a href="https://bit.ly/SOCHISU" target="_blank" alt="SochiSU.m3u" title="HTTPS m3u Download or Copy and paste the PlayList link into the IPTV Player">SU &nbsp;m3u</a></li></td><td><a href="https://sochisu.github.io/SochiSU" target="_blank" alt="borpas.info/iptvplayer" title="PlayList for IPTV Player">https://sochisu.github.io/SochiSU</a></td></tr>
 <tr><td><li>IPTV Player Portable Apps 12.4 MB</li></td><td><a href="https://www.dropbox.com/scl/fi/mao92kxe3w9qyorkw47f5/IpTvPlayerPortable49.1.0Rus.zip?rlkey=48mwapoyla5ofin3ni3cdsqol&dl=1" target="_blank" alt="IP-TV For Windows" title="Download IPTV & IP radio Free Player">https://bit.ly/IpTvPortable501zip</a></td></tr>
 <tr><td><li>IPTV – For Android .apk 3.8 MB</li></td><td><a href="https://www.dropbox.com/scl/fi/b9joob4euia4itivw9emb/IpTvAndroid3.9.0.zip?rlkey=qp0fl9dxxbkibm1w37siaq5kc&dl=1" target="_blank" alt="iptv.apk" title="Download IPTV program">https://bit.ly/IpTvAndroid395zip</a></td></tr>
 <tr><td><li>IPTV PlayList – <a href="https://is.gd/ZrTVm3u" target="_blank" alt="zabava РТ wink + Regions" title="Copy and paste the PlayList link into the IPTV Player">ZrTVm3u</a></li></td><td><a href="https://pastebin.com/raw/4h7hGHKr" target="_blank" title="PlayList MultiPleks(ru) + Regions & Free UHD">https://pastebin.com/4h7hGHKr</a></td></tr>
@@ -56,5 +56,4 @@
 > ###### `http://github.com/susochi/susochi.github.io/raw/main/SuSochi`
 
 ☆  **M3U Page** → **[VK.com/page-6876882_56548330](https://vk.com/page-6876882_56548330)**
-
- 
+ 
