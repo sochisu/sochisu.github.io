@@ -1,1 +1,0 @@
-{"playlist":[{"comment":"rtd240k","file":"http://rtmp.api.rt.com/hls/rtdru240.m3u8"},{"comment":"rtd360k","file":"http://rtmp.api.rt.com/hls/rtdru360.m3u8"},{"comment":"rtd720k","file":"http://rtmp.api.rt.com/hls/rtdru.m3u8"}]}
