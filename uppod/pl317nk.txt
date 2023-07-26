@@ -1,1 +1,0 @@
-{"playlist":[{"comment":"play","file":"http://tv.nknews.org/tvhls/stream.m3u8"},{"comment":"stop","file":"https://tv.nknews.org/tvdash/stream.mpd"},{"comment":"","file":""}]}
