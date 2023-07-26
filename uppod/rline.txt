@@ -1,0 +1,10 @@
+﻿[{
+	"title": "r228p",
+	"file": "https://s55766.cdn.ngenix.net/s55766-media-origin/rline_low/index.m3u8"
+}, {
+	"title": "rl480p",
+	"file": "https://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/index.m3u8"
+}, {
+	"title": "",
+	"file": ""
+}]
