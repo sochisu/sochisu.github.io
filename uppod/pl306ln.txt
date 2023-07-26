@@ -1,1 +1,0 @@
-﻿{"playlist":[{"comment":"ln360p","file":"http://tv.life.ru/lifetv/360p/index.m3u8"},{"comment":"ln480p","file":"http://78.gcdn.co/streams/877_13/480n/index.m3u8"},{"comment":"ln720p","file":"http://78.gcdn.co/streams/877_13/720n/index.m3u8"}]}
