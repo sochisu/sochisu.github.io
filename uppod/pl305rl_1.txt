@@ -1,15 +1,7 @@
-﻿var redline_1 = new Playerjs({
-	id: "redline_1",
-	file: [{
-		"title": "rl288p",
-		"file": "https://s55766.cdn.ngenix.net/s55766-media-origin/rline_low/index.m3u8"
-	}, {
-		"title": "rl480p",
-		"file": "https://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/index.m3u8"
-	}, {
-		"title": "",
-		"file": ""
-	}],
-	poster: "/img/red.line.png",
-	autoplay: "0"
-});
+﻿[{
+	"title": "rl288p",
+	"file": "https://s55766.cdn.ngenix.net/s55766-media-origin/rline_low/index.m3u8"
+}, {
+	"title": "rl480p",
+	"file": "https://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/index.m3u8"
+}]
