@@ -1,0 +1,13 @@
+﻿[{
+	"title": "Play 180p",
+	"file": "https://liveru.cgtn.com/200r/prog_index.m3u8"
+}, {
+	"title": "Play 360p",
+	"file": "https://liveru.cgtn.com/500r/prog_index.m3u8"
+}, {
+	"title": "Play 720p",
+	"file": "https://liveru.cgtn.com/1000r/prog_index.m3u8"
+}, {
+	"title": "Play auto",
+	"file": "https://news.cgtn.com/resource/live/russian/cgtn-r.m3u8"
+}]
