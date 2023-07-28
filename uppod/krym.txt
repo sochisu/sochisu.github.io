@@ -1,0 +1,10 @@
+﻿[{
+	"title": "kryim24 720p",
+	"file": "https://cdn.1tvcrimea.ru/switcher.m3u8"
+}, {
+	"title": "kryim24 HD",
+	"file": "https://cdn.1tvcrimea.ru/24tvcrimea.m3u8"
+}, {
+	"title": "1kryim HD",
+	"file": "https://cdn.1tvcrimea.ru/1tvcrimea.m3u8"
+}]
