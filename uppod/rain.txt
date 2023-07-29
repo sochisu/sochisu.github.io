@@ -1,9 +1,9 @@
 ﻿[{
-	"title": "YouTube",
-	"file": "https://www.youtube.com/channel/UCFzJjgVicCtFxJ5B0P_ei8A/live",
+	"title": "Rain YT",
+	"file": "https://www.youtube.com/channel/UCdubelOloxR3wzwJG9x8YqQ/live",
 	"poster":"https://sochisu.github.io/img/rains.png"
 }, {
-	"title": "Euronews",
+	"title": "Euronews YT",
 	"file": "https://www.youtube.com/watch?v=lwYzwdBiaho",
 	"poster":"https://sochisu.github.io/img/news.euro.png"
 }, {
