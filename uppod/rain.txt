@@ -1,10 +1,4 @@
 ﻿[{
-	"title": "Dozhd TV",
-	"file": "https://portal.ott.pink/watch/7319/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6"
-}, {
-	"title": "",
-	"file": ""
-}, {
 	"title": "Radio ECHO",
 	"file": "https://i1.echofm.online:8443/stream"
 }]
