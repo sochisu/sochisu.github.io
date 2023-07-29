@@ -1,11 +1,11 @@
 ﻿[{
 	"title": "YouTube",
-	"file": "https://www.youtube.com/embed/live_stream?channel=UCdubelOloxR3wzwJG9x8YqQ",
+	"file": "https://www.youtube.com/channel/UCFzJjgVicCtFxJ5B0P_ei8A/live",
 	"poster":"https://sochisu.github.io/img/rains.png"
 }, {
 	"title": "Euronews",
 	"file": "https://www.youtube.com/watch?v=lwYzwdBiaho",
-	"poster":"https://sochisu.github.io/img/euro.news.png"
+	"poster":"https://sochisu.github.io/img/news.euro.png"
 }, {
 	"title": "Радио ЭХО",
 	"file": "https://i1.echofm.online:8443/stream",
