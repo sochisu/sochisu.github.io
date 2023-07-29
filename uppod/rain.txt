@@ -6,6 +6,5 @@
 	"file": ""
 }, {
 	"title": "Радио ЭХО",
-	"file": "https://i1.echofm.online:8443/stream",
-	"poster":"/logo/echo.png"
+	"file": "https://i1.echofm.online:8443/stream"
 }]
