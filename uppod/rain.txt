@@ -1,12 +1,12 @@
 ﻿[{
-	"title": "Дождь ТВ",
-	"file": "https://ok.ru/videoembed/4309412224625",
+	"title": "Euronews",
+	"file": "https://www.youtube.com/embed/live_stream?channel=UCFzJjgVicCtFxJ5B0P_ei8A",
 	"poster":"https://sochisu.github.io/img/rains.png"
 }, {
 	"title": "YouTube",
 	"file": "https://www.youtube.com/embed/live_stream?channel=UCdubelOloxR3wzwJG9x8YqQ",
 	"poster":"https://sochisu.github.io/img/rains.png"
-	}, {
+}, {
 	"title": "Радио ЭХО",
 	"file": "https://i1.echofm.online:8443/stream",
 	"poster":"https://sochisu.github.io/logo/echo.png"
