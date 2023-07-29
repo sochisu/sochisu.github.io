@@ -1,4 +1,4 @@
 ﻿[{
-	"title": "Radio ECHO",
+	"title": "Радио ЭХО",
 	"file": "https://i1.echofm.online:8443/stream"
 }]
