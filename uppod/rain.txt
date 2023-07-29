@@ -1,10 +1,12 @@
 ﻿[{
 	"title": "YouTube",
-	"file": "https://www.youtube.com/watch?v=652GeRolliw"
+	"file": "https://www.youtube.com/watch?v=652GeRolliw",
+	"poster":"https://sochisu.github.io/img/rains.png"
 }, {
-	"title": "",
-	"file": ""
-}, {
+	"title": "YouTube",
+	"file": "https://www.youtube.com/embed/live_stream?channel=UCdubelOloxR3wzwJG9x8YqQ",
+	"poster":"https://sochisu.github.io/img/rains.png"
+	}, {
 	"title": "Радио ЭХО",
 	"file": "https://i1.echofm.online:8443/stream",
 	"poster":"https://sochisu.github.io/logo/echo.png"
