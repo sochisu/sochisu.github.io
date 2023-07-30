@@ -1,6 +1,6 @@
 ﻿[{
 	"title": "VTV",
-	"file": "https://livestream.streamingconnect.com/hls/vtvweb.m3u8"
+	"file": ""
 }, {
 	"title": "TeleSUR spa",
 	"file": "http://cdnesmain.telesur.ultrabase.net/mbliveMain/480p/playlist.m3u8"
