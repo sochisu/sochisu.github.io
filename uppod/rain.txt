@@ -7,7 +7,7 @@
 	"file": "https://www.youtube.com/watch?v=lwYzwdBiaho",
 	"poster":"https://sochisu.github.io/img/news.euro.png"
 }, {
-	"title": "Радио ЭХО",
+	"title": "Радио ЭХО (VPN)",
 	"file": "https://i1.echofm.online:8443/stream",
 	"poster":"https://sochisu.github.io/logo/echo.png"
 }]
