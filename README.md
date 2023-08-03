@@ -15,7 +15,7 @@
 <tr><td><li>Китай ЦТВ :: CCTV Russian</li></td><td><a href="https://sochisu.github.io/china" target="_blank" alt="Китай ЦТВ :: CCTV Russian" title="China TV">https://sochisu.github.io/china</a></td></tr>
 <tr><td><li>Вьетнам ТВ1 :: Vietnam TV1</li></td><td><a href="https://sochisu.github.io/vietnam" target="_blank" alt="Вьетнам ТВ :: Vietnam TV1" title="Information channel"><s>https://sochisu.github.io/vietnam</s></a></td></tr>
 <tr><td><li>Вьетнам ТВ4 :: Vietnam TV4</li></td><td><a href="https://sochisu.github.io/vietnam4" target="_blank" alt="Вьетнам ТВ :: Vietnam TV4" title="International channel"><s>https://sochisu.github.io/vietnam4</s></a></td></tr>
-<tr><td><li>С. Корея ЦТВ :: N. Korea TV</li></td><td><a href="https://sochisu.github.io/korea" target="_blank" alt="С. Корея ЦТВ :: N. Korea CTV" title="Korea TV"><s>https://sochisu.github.io/korea</s></a></td></tr>
+<tr><td><li>С. Корея ЦТВ :: N. Korea TV</li></td><td><a href="https://sochisu.github.io/korea" target="_blank" alt="С. Корея ЦТВ :: N. Korea CTV" title="Korea TV">https://sochisu.github.io/korea</a></td></tr>
 <tr><td><li>Куба ТВ :: CUBA Vision</li></td><td><a href="https://sochisu.github.io/cuba" target="_blank" alt="Куба ТВ :: CUBA Vision" title="Cuba TV">https://sochisu.github.io/cuba</a></td></tr>
 <tr><td><li>Информация :: Info</li></td><td><a href="https://sochisu.github.io/info" target="_blank" alt="Информация :: Info" title="Info">https://sochisu.github.io/info</a></td></tr>
 <tr><td><li>Play :: link</li></td><td><a href="https://sochisu.github.io/link" target="_blank" alt="Play :: link for mobile devices" title="For mobile devices">https://sochisu.github.io/link</a></td></tr>
