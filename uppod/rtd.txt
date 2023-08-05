@@ -1,0 +1,21 @@
+﻿[{
+	"title": "RTD 360p",
+	"file": "https://rt-rtd.rttv.com/dvr/rtdoc/playlist_800Kb.m3u8",
+	"poster":"https://sochisu.github.io/img/today.russia.png"
+}, {
+	"title": "RTD auto",
+	"file": "https://rt-rtd.rttv.com/dvr/rtdoc/playlist.m3u8",
+	"poster":"https://sochisu.github.io/img/today.russia.png"
+}, {
+	"title": "RTD 540p",
+	"file": "https://rt-rtd.rttv.com/dvr/rtdoc/playlist_1600Kb.m3u8",
+	"poster":"https://sochisu.github.io/img/today.russia.png"
+}, {
+	"title": "RTD 720p",
+	"file": "https://rt-rtd.rttv.com/dvr/rtdoc/playlist_2500Kb.m3u8",
+	"poster":"https://sochisu.github.io/img/today.russia.png"
+}, {
+	"title": "RTD 1080p",
+	"file": "https://rt-rtd.rttv.com/dvr/rtdoc/playlist_4500Kb.m3u8",
+	"poster":"https://sochisu.github.io/img/today.russia.png"
+}]

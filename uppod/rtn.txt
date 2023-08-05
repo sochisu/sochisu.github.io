@@ -1,0 +1,21 @@
+﻿[{
+	"title": "RT 360p",
+	"file": "https://rt-glb.rttv.com/dvr/rtnews/playlist_800Kb.m3u8",
+	"poster":"https://sochisu.github.io/russia.today.png"
+}, {
+	"title": "RT auto",
+	"file": "https://rt-glb.rttv.com/live/rtnews/playlist.m3u8",
+	"poster":"https://sochisu.github.io/russia.today.png"
+}, {
+	"title": "RT 540p",
+	"file": "https://rt-glb.rttv.com/dvr/rtnews/playlist_1600Kb.m3u8",
+	"poster":"https://sochisu.github.io/russia.today.png"
+}, {
+	"title": "RT 720p",
+	"file": "https://rt-glb.rttv.com/dvr/rtnews/playlist_2500Kb.m3u8",
+	"poster":"https://sochisu.github.io/russia.today.png"
+}, {
+	"title": "RT 1080p",
+	"file": "https://rt-glb.rttv.com/dvr/rtnews/playlist_4500Kb.m3u8",
+	"poster":"https://sochisu.github.io/russia.today.png"
+}]

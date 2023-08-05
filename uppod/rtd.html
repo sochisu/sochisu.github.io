@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset=utf-8>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="MobileOptimized" content="width=250px">
+<meta name="HandheldFriendly" content="true">
+<meta name="robots" content="noindex,nofollow">
+<title>Russia Today TV :: Player JS</title>
+<style type="text/css">
+body,html{margin:0;padding:0;}
+</style>
+<script type="text/javascript" src="/uppod/rt.js"></script>
+</head>
+<body>
+<div style="position:absolute;top:-100px;left:-100px;">
+<!--LiveInternet counter--><script type="text/javascript">
+document.write("<a href='//www.liveinternet.ru/click' "+
+"target='_blank' rel='nofollow'><img src='//counter.yadro.ru/hit?t26.1;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";h"+escape(document.title.substring(0,150))+";"+Math.random()+
+"' alt='' title='LiveInternet' "+
+"border='0' width='88' height='15'><\/a>")
+</script><!--/LiveInternet-->
+<div id="counter" style="position:absolute;margin-left:5px;">
+<!-- HotLog -->
+<img src="https://www.counter12.com/img-2zZddA9dz622cWa5-57.gif" alt="03.08.2023" style="border:0"/>
+<!-- /HotLog -->
+</div>
+<!--Flag Counter--><a href="https://info.flagcounter.com/QQvX" target="_blank"><img src="https://s04.flagcounter.com/count/QQvX/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_2/viewers_Online+audio+TvRain.ru/labels_0/pageviews_0/flags_0/" alt="Flag Counter" title="Flag Counter" border="0" width="88" height="31"></a><!--/Flag Counter-->
+</div>
+<div id="vid" style="width:250px;height:180px;margin:0 auto;"><iframe id="vid" src="/uppod/rt.html?file=/uppod/rtd.txt&poster=/img/today.russia.png" type="text/html" width="250px" height="180px" bgcolor="#fdfbf7" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" allowscriptaccess="always" fullscreen"></iframe></div>
+</body>
+</html>
