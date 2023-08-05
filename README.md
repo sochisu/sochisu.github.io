@@ -20,7 +20,7 @@
 <tr><td><li>Информация :: Info</li></td><td><a href="https://sochisu.github.io/info" target="_blank" alt="Информация :: Info" title="Info">https://sochisu.github.io/info</a></td></tr>
 <tr><td><li>Play :: link</li></td><td><a href="https://sochisu.github.io/link" target="_blank" alt="Play :: link for mobile devices" title="For mobile devices">https://sochisu.github.io/link</a></td></tr>
 <tr><td><li>Music / Музыка :: MP3 Player</li></td><td><a href="https://sochisu.github.io/music" target="_blank" alt="Music / Музыка :: MP3 Player" title="MP3 Player">https://sochisu.github.io/music</a></td></tr>
-<tr><td><li>Russia Today :: TV Player</li></td><td><a href="https://sochisu.github.io/rt" target="_blank" alt="Russia Today :: TV Player" title="RTDoc TV"><s>https://sochisu.github.io/rt</s></a></td></tr>
+<tr><td><li>Russia Today :: TV Player</li></td><td><a href="https://sochisu.github.io/rt" target="_blank" alt="Russia Today :: TV Player" title="RTDoc TV">https://sochisu.github.io/rt</a></td></tr>
 <tr><td><li>Anti-Maidan.Com :: Stream|18+</li></td><td><a href="https://sochisu.github.io/am" target="_blank" alt="Anti-Maidan.Com RLS.tv :: Stream|18+" title="Donetsk Live RLS.tv">https://sochisu.github.io/am</a></td></tr>
 <tr><td td><li>КРЫМ / Crimea :: TV Player</li></td><td><a href="https://sochisu.github.io/krym" target="_blank" alt="КРЫМ / Crimea :: TV Player" title="Crimea 1/24 TV">https://sochisu.github.io/krym</a></td></tr>
 <tr><td><li>LifeNews :: TV Player</li></td><td><a href="https://sochisu.github.io/lifenews" target="_blank" alt="LifeNews :: TV Player" title="Life.ru TV"><s>https://sochisu.github.io/lifenews</s></a></td></tr>
