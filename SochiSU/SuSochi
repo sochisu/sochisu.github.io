@@ -1,5 +1,4 @@
-﻿<!DOCTYPE html><html lang="ru"><head><meta charset=utf-8><meta name="robots" content="index,nofollow"><meta property="og:title" content="IPTV & IP Radio PlayList Page – SuSochi.GitHub.io"></head><body><pre>
-#EXTM3U m3uautoload=1 deinterlace=1 url-tvg="https://iptvx.one/EPG" catchup="append" catchup-source="&offset=-${offset}&utcstart=${timestamp}" catchup-days="3" cache=1500
+﻿#EXTM3U m3uautoload=1 deinterlace=1 url-tvg="https://iptvx.one/EPG" catchup="append" catchup-source="&offset=-${offset}&utcstart=${timestamp}" catchup-days="3" cache=1500
 #EXTINF:0 tvg-logo="https://www.counter12.com/img-9d39BbCz4DBZ5dba-57.gif" group-title="TOP List", = = = = = = TOP List = = = v2.Mar.2024 = = = @SantaSU
 #+++ Вася Обломов - Письмо Санта-Клаусу https://youtube.com/v/MHB7Gn99AII
 #+++ Radio AURORA | Дзен - https://dzen.ru/aurora_network
@@ -3702,4 +3701,3 @@ http://yxz.m3u8 #   (http://susochi.ga/SuSochiGa.m3u) --|++ M3U Page → https:
 ### Help – Ƀ   1HErW1F7Qs4hZKHrokfBXFLmXtWviK88pa
 ### Помочь – ₽ https://yoomoney.ru/to/410013694885719
 ### Радио и ТВ https://SochiSU.GitHub.io   (SuSochi.Ga) -X- НЕ РАБОТАЕТ, support freenom – регистратора домена, даже не отвечает на письма !
-</pre></body></html>
