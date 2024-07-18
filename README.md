@@ -54,7 +54,7 @@
 >>>>>>>>>> ###### `https://u.to/m3uSuSochi/PO7JIA`
 > < m3u > <a href="https://github.com/sochisu/sochisu.github.io/raw/main/SochiSU/SuSochi" target="_blank">GitHub.com/sochisu/sochisu.github.io/raw/main/SochiSU/SuSochi</a>
 > ###### `https://raw.githubusercontent.com/sochisu/sochisu.github.io/main/SochiSU/SuSochi`
-> ###### `http://raw.githubusercontent.com/sochisu/sochisu.github.io/main/SochiSU/SuSochi
+> ###### `http://raw.githubusercontent.com/sochisu/sochisu.github.io/main/SochiSU/SuSochi`
 
 ☆  **M3U Page** → **[VK.com/page-6876882_56548330](https://vk.com/page-6876882_56548330)**
  
