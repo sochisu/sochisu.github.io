@@ -1,0 +1,212 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="ru">
+<head>
+<meta charset=utf-8>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="MobileOptimized" content="width">
+<meta name="HandheldFriendly" content="true">
+<meta name="robots" content="index,nofollow">
+<meta name="description" content="Тестирование или просмотор / прослушивание стримов ТВ и радио в онлайн плеере VLC с возможностью создать плейлисты M3U / XSPF / WPL / PLS / AzBox форматов | Testing or viewing / listening to TV and radio streams in an online VLC player with the ability to create playlists M3U / XSPF / WPL / PLS / AzBox formats">
+<meta name="keywords" content="vlc stream tester, тестор стримов, iptv, айпи тестер, vlc online tester, ip тестирование, vlc online player, онлайн плеер vlc, vlc tester, simple tv, test tv channels, тест тв каналов, m3u, m3u8, xspf, wpl, pls, azbox, rtmp, rstp, udp, mms, file, playlist creator, создать плейлист онлайн, m3u playlist generatorr, m3u playlist converter, конвертировать плейлист, online playlist creator, iptv generatorr, russian tv">
+<meta property="og:title" content="VLC Stream Test :: Тест IPTV IP-радио">
+<meta property="og:type" content="website">
+<meta property="og:description" content="Тестирование или просмотор / прослушивание стримов ТВ и радио в онлайн плеере VLC с возможностью создать плейлисты M3U / XSPF / WPL / PLS / AzBox форматов | Testing or viewing / listening to TV and radio streams in an online VLC player with the ability to create playlists M3U / XSPF / WPL / PLS / AzBox formats">
+<meta property="og:url" content="/tester">
+<meta property="og:image" content="/img/vlc-media-player-iptv-radio.png">
+<meta name="msapplication-TileColor" content="#f8c64b">
+<meta name="theme-color" content="#fdfbf7">
+<title>VLC Stream Test :: Тест IPTV IP-радио</title>
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
+<link rel="icon" href="/favicon.png" type="image/png" sizes="16x16">
+<link rel="icon" href="/favicon-16.png" type="image/png" sizes="16x16">
+<link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="76x76">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ff2300">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="image_src" href="/img/vlc-media-player-iptv-radio.png">
+<style type="text/css">
+body,html{margin:0;padding:0;height:100%;}
+* html #wrapper{height:100%;}
+body{background: url(/img/bg1tester.png) repeat-x top left;font-family:Arial,Times New Roman;font-size:16px;color:black;}
+#wrapper{width:100%;min-height:100%;margin:0 auto;white-space:nowrap;}
+#div{position:fixed;height:16px;width:30px;top:0%;right:0%;align:middle;text-align:center;font-size:16px;}
+#asts{position:fixed;z-index:10;height:16px;width:30px;top:50%;right:0%;align:middle;text-align:center;font-size:16px;}
+#list{position:fixed;z-index:10;height:16px;width:30px;top:50%;left:0%;align:middle;text-align:center;font-size:16px;}
+#home{position:fixed;z-index:10;height:16px;width:30px;top:0%;left:0%;align:middle;text-align:center;}
+#footer{height:80px;width:100%;margin-top:-81px;text-align:center;}
+#video{width:680px;background-color:#303030;color:#303030;padding:12px;border-radius:8px;}
+#vlc{position:absolute;}
+#counter2 img{filter:alpha(opacity=40);-moz-opacity:0.4;-khtml-opacity:0.4;opacity:0.4;}
+#counter2 img:hover{filter:alpha(opacity=100);-moz-opacity:1.0;-khtml-opacity:1.0;opacity:1.0;}
+#convert:hover{background-color:#303030;cursor:pointer;}
+#convert{border:none;color:#fff;background:#e84747;}
+input[type="submit"]:hover{background-color:#303030;cursor:pointer;}
+input[type="submit"]{border:none;color:#fff;background:#e84747;}
+input:hover{background-color:#f5f5f5;}
+input,textarea,select{max-width:100%;}
+input,textarea{padding:0.7em;background:#fff;border:1px solid #ddd;font-size:1.0em;color:#333;font-family:Arial,Tahoma,sans-serif;}
+div[class="news_body_ad_title"]{display:none;}
+div[class="news_body_ad_item"]{display:none;}
+div[class="wrapper"]{display:none;}
+div[class="title-link"]{display:none;}
+div[class="title"]{display:none;}
+iframe{display:none;}
+a:hover{text-decoration:underline;color:red;}
+a:link{color:red;text-decoration:none;}
+a:visited{color:red;text-decoration:none;}
+</style>
+<script type="text/javascript" src="https://dl.dropbox.com/s/5c5xw8vlc6u6xch/creator.js"></script>
+</head>
+<body>
+
+<!--LiveInternet counter--><script type="text/javascript"><!--
+new Image().src = "https://counter.yadro.ru/hit?r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";h"+escape(document.title.substring(0,150))+
+";"+Math.random();//--></script><!--/LiveInternet-->
+
+<div id="wrapper">
+<script type="text/javascript" src="https://dl.dropbox.com/s/79n8vju9g0dc7ls/tester.js"></script>
+
+<div style="width:100%;margin:60px 0 0;">
+<p align="center"><b><a href="/tester" title="Тестирование потоков IP-телевидения/радио" alt="IPTV Stream Tester"><span style="color:#e84747;">IPTV & IP RADIO STREAM TESTER</span></a></b></p>
+
+<table align="center" border="0" style="width:704px;height:564px;margin:50 auto;"><tr><td>
+<div align="center">VLC stream &nbsp; — &nbsp; <input style="width:400px;height:46px;border-radius:1px;border:#969696 1px solid;" id="targetTextField" required="required" autofocus="autofocus" placeholder="  http:// https:// rtmp:// rtsp:// rtp:// udp:// mms:// file:///" /> <input style="width:66px;height:46px;border-radius:1px;border:#ccc 1px solid;" type="submit" title="Test stream" value="Test" onClick="doGo(document.getElementById('targetTextField').value);" /></div>
+<p><!--//--></p>
+<div id="video" style="width:680px;height:420px;"><object id="vlc" width="680px" height="420px" class="vlcPlayer" classid="clsid:9BE31822-FDAD-461B-AD51-BE1D1C159921" version="VideoLAN.VLCPlugin.2" codebase="http://download.videolan.org/pub/videolan/vlc/last/win32/axvlc.cab" events="True"><param name="Target" value="playlist.m3u" /><param name="MRL" value="playlist.m3u" /><param name="Src" value="playlist.m3u" /><param name="ShowDisplay" value="True" /><param name="AutoLoop" value="True" /><param name="AutoPlay" value="false" /><param name="Volume" value="100" /><param name="bgcolor" value="#303030" /><param name="toolbar" value="true" /><param name="StartTime" value="0" /><embed id="vlc" type="application/x-google-vlc-plugin" progid="VideoLAN.VLCPlugin.2" pluginspage="http://www.videolan.org" width="680px" height="420px" name="vlc" bgcolor="#303030" toolbar="yes" mrl="playlist.m3u" target="playlist.m3u" autoplay="no" loop="yes" volume="100" /></object></div>
+<div style="float:left;margin-left:10px;"><input type="button" title="" value="Play" onclick="vlc.playlist.play();" /><input type="button" title="" value="Stop" onclick="vlc.playlist.stop();" /><input type="button" title="" value="16:9" onclick="vlc.video.aspectRatio=(this.value);" /><input type="button" title="" value="16:10" onclick="vlc.video.aspectRatio=(this.value);" /><input type="button" title="" value="4:3" onclick="vlc.video.aspectRatio=(this.value);" /> <input type="button" title="" value="Mute" onclick="vlc.audio.toggleMute();" /><input type="button" title="" value="vol -" onclick="vlc.audio.volume+=(-10);" /><input type="button" title="" value="vol +" onclick="vlc.audio.volume+=(+10);" /> &nbsp; &nbsp; &nbsp; <input type="button" title="" value="Fullscreen" onclick="vlc.video.toggleFullscreen();" /></div>
+<div align="right"><button style="width:9px;height:11px;background:url(/img/redsquare5x5.gif) no-repeat 50% 50%;" onclick="offon('vlc');return false" title="Off-On"></button></div>
+</td></tr></table>
+
+<table border="0" style="width:680px;margin:300px auto 0;font-family:Verdana,Tahoma,Arial,sans-serif;"><tr><td>
+<a name="iplist"></a>
+<div style="width:680px;">
+<p align="center"><b><a href="/tester#iplist" title="Создание плейлистов IP-телевидения/радио" alt="Playlist Creator"><span style="color:#e84747;">Playlist Creator M3U, XSPF, WPL, PLS, AzBox</span></a></b></p><br>
+
+<form action="http://tvtvtv.ru/tools/plcs.php" method="post" name="form1">
+<input name="list" checked="checked" value="1" onchange="document.getElementById('ex_title').innerHTML='Your text (all channels and url-address with the new line!):'; document.getElementById('example1').innerHTML='Красное Radio ФРА (128k)<br>http://listen2.myradio24.com:9000/zuek1917<br>Красная линия (480p m3u8)<br>http://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/index.m3u8<br>Red RLine.TV (288p m3u8)<br>http://s55766.cdn.ngenix.net/s55766-media-origin/rline_low/index.m3u8<br>ОТР (Zm3u8)<br>http://zabava-htlive.cdn.ngenix.net/hls/CH_OTR/variant.m3u8?version=2<br>Россия Культура (Zm3u8)<br>http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK/variant.m3u8?version=2<br>Russia Culture (450p m3u8)<br>http://radio-live-mg.rtr-vesti.ru/hls/russia_k/playlist.m3u8<br>Россия 24 (Zm3u8)<br>http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA24/variant.m3u8?version=2<br>Russia 24 (450p m3u8)<br>http://radio-live-mg.rtr-vesti.ru/hls/russia_24/playlist_2.m3u8<br>Беларусь 24 (m3u8)<br>http://serv30.vintera.tv:8081/belarus24/belarus24/playlist.m3u8<br>Мир 24 HD (by m3u8)<br>http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8<br>Мир HD (by m3u8)<br>http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8<br>Radio Беларусь FM (256k)<br>https://stream2.datacenter.by/belarusfm<br>Radio Station Belarus (128k)<br>https://stream2.datacenter.by/belarus<br>TeleSUR TV spa (ve 480p m3u8)<br>http://cdnesmain.telesur.ultrabase.net/mbliveMain/480p/playlist.m3u8<br>TeleSUR TV eng (ve 480p m3u8)<br>http://cdnenmain.telesur.ultrabase.net/mblivev3/480p/playlist.m3u8<br>Vietnam VTV4 HD inter (vn m3u8)<br>http://akamai-vtvgolive-vtv.akamaized.net/vtv4/index.m3u8<br>С. Корея ЦТВ kor (09:00–16:40 МСК m3u8)<br>http://tv.nknews.org/tvhls/stream.m3u8<br>N. Korea CTV kor (mpd – play in VLC) VideoLan.org<br>http://tv.nknews.org/tvdash/stream.mpd<br>ТВ БРИКС HD rus (Бразилия Россия Индия Китай ЮАР m3u8)<br>http://brics.bonus-tv.ru/cdn/brics/russian/playlist.m3u8<br>TV BRICS HD eng (Brazil Russia India China South Africa m3u8)<br>http://brics.bonus-tv.ru/cdn/brics/english/playlist.m3u8<br>TV BRICS HD por (Brasil Rússia Índia China África do Sul m3u8)<br>http://brics.bonus-tv.ru/cdn/brics/portuguese/playlist.m3u8<br>電視 金砖五国 高清 chi （巴西 俄罗斯 印度 中国 南非 m3u8）<br>http://brics.bonus-tv.ru/cdn/brics/chinese/playlist.m3u8<br>Китай ТВ / CGTN rus (auto m3u8)<br>http://news.cgtn.com/resource/live/russian/cgtn-r.m3u8<br>China TV / CGTN rus (720p m3u8)<br>http://liveru.cgtn.com/1000r/prog_index.m3u8<br>PRC CTV / CGTN rus (360p m3u8)<br>http://liveru.cgtn.com/500r/prog_index.m3u8<br>CCTV / CGTN rus (180p m3u8)<br>http://liveru.cgtn.com/200r/prog_index.m3u8<br>Крым 1 (m3u8)<br>http://mrlive.1tvcrimea.ru:8080/1tvcrimea.m3u8<br>Crimea 24 (m3u8)<br>http://mr2live.1tvcrimea.ru:8080/24tvcrimea.m3u8<br>Radio НАШЕ (128k)<br>http://nashe1.hostingradio.ru/nashe-128.mp3<br>Radio NASHE 2.0 (128k)<br>http://nashe1.hostingradio.ru/nashe20-128.mp3<br>СТРК КИНОканал (720p m3u8)<br>http://sochinskayatrk.ru/hdtv/hls/strc_hd/playlist.m3u8<br>СочиТРК КИНОканал (400p m3u8)<br>http://sochinskayatrk.ru/hdtv/hls/strk_400/playlist.m3u8<br>Maks 24 / Sochi 24 (Zm3u8)<br>http://rt-sth-krdar-htlive-lb.cdn.ngenix.net/hls/CH_R01_MAKS241/variant.m3u8?version=2<br>Макс 24 / Сочи 24 (Vm3u8)<br>http://serv30.vintera.tv:8081/sochi/sochi24/playlist.m3u8<br>Radio Макс FM sochi (128k)<br>http://maksfm.hostingradio.ru/maksfm128.mp3<br>Russia Today Doc. (auto m3u8)<br>http://cdn-01.bonus-tv.ru:8080/rtdoc/playlist.m3u8<br>Russia Today Doc. (720p m3u8)<br>https://rtmp.api.rt.com/hls/rtdru.m3u8<br>Russia Today Doc. (360p m3u8)<br>https://rtmp.api.rt.com/hls/rtdru360.m3u8<br>Russia Today Doc. (240p m3u8)<br>https://rtmp.api.rt.com/hls/rtdru240.m3u8<br>Russia Today Doc. (audio m3u8)<br>http://cdn-01.bonus-tv.ru:8080/rtdoc/tracks-a1/index.m3u8<br>RT News eng (auto m3u8)<br>https://rt-news.secure.footprint.net/1103.m3u8<br>RT News eng (720p m3u8)<br>https://rt-news.secure.footprint.net/1103_2500Kb.m3u8<br>RT News eng (480p m3u8)<br>https://rt-news.secure.footprint.net/1103_1600Kb.m3u8<br>RT News eng (240p m3u8)<br>https://rt-news.secure.footprint.net/1103_400Kb.m3u8<br>RT News eng (audio m3u8)<br>http://cdn-01.bonus-tv.ru:8080/RussiaToday/tracks-a1/index.m3u8<br>Kazakh TV HD kaz/rus (m3u8)<br>http://serv30.vintera.tv:8081/kazahtv/stream_kz/playlist.m3u8<br>TV1.KG HD kir/rus (m3u8)<br>http://st.kglive.asia/hls/tv1kg.m3u8<br>Любимый HD kir/rus (m3u8)<br>http://92.245.103.126:1935/live/live.stream/playlist.m3u8<br>Tajikistan TV HD tgk (m3u8)<br>http://185.121.2.6:8081/live/tvt1214/chunks.m3u8<br>Turkmenistan TV tuk (m3u8)<br>http://alpha.tv.online.tm/hls/ch007_720/index.m3u8<br>Uzbekistan 24 uzb (rtmp)<br>rtmp://watch.mtrk.uz/24/24.stream<br>Uzbekistan 24 uzb (m3u8)<br>https://watch.mtrk.uz/24/24.stream/manifest.m3u8<br>EuroNews rus (m3u8)<br>http://evronovosti.mediacdn.ru/sr1/evronovosti/playlist.m3u8<br>Inter ukr (rtmp)<br>rtmp://109.68.41.148:1935/live/inter_3<br>Inter ukr (m3u8)<br>http://109.68.41.148:1935/live/inter_3/playlist.m3u8<br>NewsOne ukr (YT)<br>https://www.youtube.com/watch?v=3e0FsU1N6OQ<br>112 Украина ukr (YT)<br>https://www.youtube.com/watch?v=3Q11d6I21PE<br>Zik HD ukr (YT)<br>https://www.youtube.com/watch?v=a_3eJgMMBsg<br>Наш HD ukr (YT)<br>https://www.youtube.com/watch?v=ErX-LbZW-zE<br>ICTV Ukraine ukr (m3u8)<br>http://51.15.176.84/hls/ictv-ch/index.m3u8<br>1+1 ukr (m3u8)<br>http://51.68.140.190:8081/tv/1+1/playlist.m3u8<br>Simon TV Харьков (m3u8)<br>http://hls.simon.ua/live-HD/live/playlist_dvr.m3u8<br>1 Республиканский (DNR)<br>http://ott.inmart.tv:8081/18/index.m3u8<br>Новороссия ТВ (DNR)<br>http://ott.inmart.tv:8081/19/index.m3u8<br>Оплот ТВ (DNR)<br>http://ott.inmart.tv:8081/54/index.m3u8<br>Оплот 2 (DNR)<br>http://ott.inmart.tv:8081/17/index.m3u8<br>TK Юнион (DNR)<br>http://ott.inmart.tv:8081/35/index.m3u8<br>Radio ANNA-News (192k)<br>https://radio.anna-news.info:1443/live';" type="radio" /> the names of channels <input name="list" value="2" onchange="document.getElementById('ex_title').innerHTML='Your text (all url-address with the new line!):'; document.getElementById('example1').innerHTML='http://listen2.myradio24.com:9000/zuek1917<br>http://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/index.m3u8<br>http://s55766.cdn.ngenix.net/s55766-media-origin/rline_low/index.m3u8<br>http://zabava-htlive.cdn.ngenix.net/hls/CH_OTR/variant.m3u8?version=2<br>http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK/variant.m3u8?version=2<br>http://radio-live-mg.rtr-vesti.ru/hls/russia_k/playlist.m3u8<br>http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA24/variant.m3u8?version=2<br>http://radio-live-mg.rtr-vesti.ru/hls/russia_24/playlist_2.m3u8<br>http://serv30.vintera.tv:8081/belarus24/belarus24/playlist.m3u8<br>http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8<br>http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8<br>https://stream2.datacenter.by/belarusfm<br>https://stream2.datacenter.by/belarus<br>http://cdnesmain.telesur.ultrabase.net/mbliveMain/480p/playlist.m3u8<br>http://cdnenmain.telesur.ultrabase.net/mblivev3/480p/playlist.m3u8<br>http://akamai-vtvgolive-vtv.akamaized.net/vtv4/index.m3u8<br>http://tv.nknews.org/tvhls/stream.m3u8<br>http://tv.nknews.org/tvdash/stream.mpd<br>http://brics.bonus-tv.ru/cdn/brics/russian/playlist.m3u8<br>http://brics.bonus-tv.ru/cdn/brics/english/playlist.m3u8<br>http://brics.bonus-tv.ru/cdn/brics/portuguese/playlist.m3u8<br>http://brics.bonus-tv.ru/cdn/brics/chinese/playlist.m3u8<br>http://news.cgtn.com/resource/live/russian/cgtn-r.m3u8<br>http://liveru.cgtn.com/1000r/prog_index.m3u8<br>http://liveru.cgtn.com/500r/prog_index.m3u8<br>http://liveru.cgtn.com/200r/prog_index.m3u8<br>http://mrlive.1tvcrimea.ru:8080/1tvcrimea.m3u8<br>http://mr2live.1tvcrimea.ru:8080/24tvcrimea.m3u8<br>http://nashe1.hostingradio.ru/nashe-128.mp3<br>http://nashe1.hostingradio.ru/nashe20-128.mp3<br>http://sochinskayatrk.ru/hdtv/hls/strc_hd/playlist.m3u8<br>http://sochinskayatrk.ru/hdtv/hls/strk_400/playlist.m3u8<br>http://rt-sth-krdar-htlive-lb.cdn.ngenix.net/hls/CH_R01_MAKS241/variant.m3u8?version=2<br>http://serv30.vintera.tv:8081/sochi/sochi24/playlist.m3u8<br>http://maksfm.hostingradio.ru/maksfm128.mp3<br>http://cdn-01.bonus-tv.ru:8080/rtdoc/playlist.m3u8<br>https://rtmp.api.rt.com/hls/rtdru.m3u8<br>https://rtmp.api.rt.com/hls/rtdru360.m3u8<br>https://rtmp.api.rt.com/hls/rtdru240.m3u8<br>http://cdn-01.bonus-tv.ru:8080/rtdoc/tracks-a1/index.m3u8<br>https://rt-news.secure.footprint.net/1103.m3u8<br>https://rt-news.secure.footprint.net/1103_2500Kb.m3u8<br>https://rt-news.secure.footprint.net/1103_1600Kb.m3u8<br>https://rt-news.secure.footprint.net/1103_400Kb.m3u8<br>http://cdn-01.bonus-tv.ru:8080/RussiaToday/tracks-a1/index.m3u8<br>http://serv30.vintera.tv:8081/kazahtv/stream_kz/playlist.m3u8<br>http://st.kglive.asia/hls/tv1kg.m3u8<br>http://92.245.103.126:1935/live/live.stream/playlist.m3u8<br>http://185.121.2.6:8081/live/tvt1214/chunks.m3u8<br>http://alpha.tv.online.tm/hls/ch007_720/index.m3u8<br>rtmp://watch.mtrk.uz/24/24.stream<br>https://watch.mtrk.uz/24/24.stream/manifest.m3u8<br>http://evronovosti.mediacdn.ru/sr1/evronovosti/playlist.m3u8<br>rtmp://109.68.41.148:1935/live/inter_3<br>http://109.68.41.148:1935/live/inter_3/playlist.m3u8<br>https://www.youtube.com/watch?v=3e0FsU1N6OQ<br>https://www.youtube.com/watch?v=3Q11d6I21PE<br>https://www.youtube.com/watch?v=a_3eJgMMBsg<br>https://www.youtube.com/watch?v=ErX-LbZW-zE<br>http://51.15.176.84/hls/ictv-ch/index.m3u8<br>http://51.68.140.190:8081/tv/1+1/playlist.m3u8<br>http://hls.simon.ua/live-HD/live/playlist_dvr.m3u8<br>http://ott.inmart.tv:8081/18/index.m3u8<br>http://ott.inmart.tv:8081/19/index.m3u8<br>http://ott.inmart.tv:8081/54/index.m3u8<br>http://ott.inmart.tv:8081/17/index.m3u8<br>http://ott.inmart.tv:8081/35/index.m3u8<br>https://radio.anna-news.info:1443/live';" type="radio" style="margin-left:10px;" /> without channel names <br>
+
+<div><span id="ex_title">&nbsp;Your text (all channels and url-address with the new line!):</span><a href="#OpenExample" onclick="document.getElementById('example1').style.display='block';return false;" title="пример" style="color:#bababa;margin-left:10px;text-decoration:underline;">example</a><a href="#CloseExample" onclick="document.getElementById('example1').style.display='none';return false;" title="закрыть пример" style="color:#bababa;margin-left:12px;text-decoration:underline;">close</a></div>
+
+<div id="example1" style="display:none;font-size:13px;color:#000;border:dashed 1px #CCC;width:98%;margin-top:20px;margin-bottom:20px;padding:4px;">Красное Radio ФРА (128k)<br>http://listen2.myradio24.com:9000/zuek1917<br>Красная линия (480p m3u8)<br>http://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/index.m3u8<br>Red RLine.TV (288p m3u8)<br>http://s55766.cdn.ngenix.net/s55766-media-origin/rline_low/index.m3u8<br>ОТР (Zm3u8)<br>http://zabava-htlive.cdn.ngenix.net/hls/CH_OTR/variant.m3u8?version=2<br>Россия Культура (Zm3u8)<br>http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK/variant.m3u8?version=2<br>Russia Culture (450p m3u8)<br>http://radio-live-mg.rtr-vesti.ru/hls/russia_k/playlist.m3u8<br>Россия 24 (Zm3u8)<br>http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA24/variant.m3u8?version=2<br>Russia 24 (450p m3u8)<br>http://radio-live-mg.rtr-vesti.ru/hls/russia_24/playlist_2.m3u8<br>Беларусь 24 (m3u8)<br>http://serv30.vintera.tv:8081/belarus24/belarus24/playlist.m3u8<br>Мир 24 HD (by m3u8)<br>http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8<br>Мир HD (by m3u8)<br>http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8<br>Radio Беларусь FM (256k)<br>https://stream2.datacenter.by/belarusfm<br>Radio Station Belarus (128k)<br>https://stream2.datacenter.by/belarus<br>TeleSUR TV spa (ve 480p m3u8)<br>http://cdnesmain.telesur.ultrabase.net/mbliveMain/480p/playlist.m3u8<br>TeleSUR TV eng (ve 480p m3u8)<br>http://cdnenmain.telesur.ultrabase.net/mblivev3/480p/playlist.m3u8<br>Vietnam VTV4 HD inter (vn m3u8)<br>http://akamai-vtvgolive-vtv.akamaized.net/vtv4/index.m3u8<br>С. Корея ЦТВ kor (09:00–16:40 МСК m3u8)<br>http://tv.nknews.org/tvhls/stream.m3u8<br>N. Korea CTV kor (mpd – play in VLC) VideoLan.org<br>http://tv.nknews.org/tvdash/stream.mpd<br>ТВ БРИКС HD rus (Бразилия Россия Индия Китай ЮАР m3u8)<br>http://brics.bonus-tv.ru/cdn/brics/russian/playlist.m3u8<br>TV BRICS HD eng (Brazil Russia India China South Africa m3u8)<br>http://brics.bonus-tv.ru/cdn/brics/english/playlist.m3u8<br>TV BRICS HD por (Brasil Rússia Índia China África do Sul m3u8)<br>http://brics.bonus-tv.ru/cdn/brics/portuguese/playlist.m3u8<br>電視 金砖五国 高清 chi （巴西 俄罗斯 印度 中国 南非 m3u8）<br>http://brics.bonus-tv.ru/cdn/brics/chinese/playlist.m3u8<br>Китай ТВ / CGTN rus (auto m3u8)<br>http://news.cgtn.com/resource/live/russian/cgtn-r.m3u8<br>China TV / CGTN rus (720p m3u8)<br>http://liveru.cgtn.com/1000r/prog_index.m3u8<br>PRC CTV / CGTN rus (360p m3u8)<br>http://liveru.cgtn.com/500r/prog_index.m3u8<br>CCTV / CGTN rus (180p m3u8)<br>http://liveru.cgtn.com/200r/prog_index.m3u8<br>Крым 1 (m3u8)<br>http://mrlive.1tvcrimea.ru:8080/1tvcrimea.m3u8<br>Crimea 24 (m3u8)<br>http://mr2live.1tvcrimea.ru:8080/24tvcrimea.m3u8<br>Radio НАШЕ (128k)<br>http://nashe1.hostingradio.ru/nashe-128.mp3<br>Radio NASHE 2.0 (128k)<br>http://nashe1.hostingradio.ru/nashe20-128.mp3<br>СТРК КИНОканал (720p m3u8)<br>http://sochinskayatrk.ru/hdtv/hls/strc_hd/playlist.m3u8<br>СочиТРК КИНОканал (400p m3u8)<br>http://sochinskayatrk.ru/hdtv/hls/strk_400/playlist.m3u8<br>Maks 24 / Sochi 24 (Zm3u8)<br>http://rt-sth-krdar-htlive-lb.cdn.ngenix.net/hls/CH_R01_MAKS241/variant.m3u8?version=2<br>Макс 24 / Сочи 24 (Vm3u8)<br>http://serv30.vintera.tv:8081/sochi/sochi24/playlist.m3u8<br>Radio Макс FM sochi (128k)<br>http://maksfm.hostingradio.ru/maksfm128.mp3<br>Russia Today Doc. (auto m3u8)<br>http://cdn-01.bonus-tv.ru:8080/rtdoc/playlist.m3u8<br>Russia Today Doc. (720p m3u8)<br>https://rtmp.api.rt.com/hls/rtdru.m3u8<br>Russia Today Doc. (360p m3u8)<br>https://rtmp.api.rt.com/hls/rtdru360.m3u8<br>Russia Today Doc. (240p m3u8)<br>https://rtmp.api.rt.com/hls/rtdru240.m3u8<br>Russia Today Doc. (audio m3u8)<br>http://cdn-01.bonus-tv.ru:8080/rtdoc/tracks-a1/index.m3u8<br>RT News eng (auto m3u8)<br>https://rt-news.secure.footprint.net/1103.m3u8<br>RT News eng (720p m3u8)<br>https://rt-news.secure.footprint.net/1103_2500Kb.m3u8<br>RT News eng (480p m3u8)<br>https://rt-news.secure.footprint.net/1103_1600Kb.m3u8<br>RT News eng (240p m3u8)<br>https://rt-news.secure.footprint.net/1103_400Kb.m3u8<br>RT News eng (audio m3u8)<br>http://cdn-01.bonus-tv.ru:8080/RussiaToday/tracks-a1/index.m3u8<br>Kazakh TV HD kaz/rus (m3u8)<br>http://serv30.vintera.tv:8081/kazahtv/stream_kz/playlist.m3u8<br>TV1.KG HD kir/rus (m3u8)<br>http://st.kglive.asia/hls/tv1kg.m3u8<br>Любимый HD kir/rus (m3u8)<br>http://92.245.103.126:1935/live/live.stream/playlist.m3u8<br>Tajikistan TV HD tgk (m3u8)<br>http://185.121.2.6:8081/live/tvt1214/chunks.m3u8<br>Turkmenistan TV tuk (m3u8)<br>http://alpha.tv.online.tm/hls/ch007_720/index.m3u8<br>Uzbekistan 24 uzb (rtmp)<br>rtmp://watch.mtrk.uz/24/24.stream<br>Uzbekistan 24 uzb (m3u8)<br>https://watch.mtrk.uz/24/24.stream/manifest.m3u8<br>EuroNews rus (m3u8)<br>http://evronovosti.mediacdn.ru/sr1/evronovosti/playlist.m3u8<br>Inter ukr (rtmp)<br>rtmp://109.68.41.148:1935/live/inter_3<br>Inter ukr (m3u8)<br>http://109.68.41.148:1935/live/inter_3/playlist.m3u8<br>NewsOne ukr (YT)<br>https://www.youtube.com/watch?v=3e0FsU1N6OQ<br>112 Украина ukr (YT)<br>https://www.youtube.com/watch?v=3Q11d6I21PE<br>Zik HD ukr (YT)<br>https://www.youtube.com/watch?v=a_3eJgMMBsg<br>Наш HD ukr (YT)<br>https://www.youtube.com/watch?v=ErX-LbZW-zE<br>ICTV Ukraine ukr (m3u8)<br>http://51.15.176.84/hls/ictv-ch/index.m3u8<br>1+1 ukr (m3u8)<br>http://51.68.140.190:8081/tv/1+1/playlist.m3u8<br>Simon TV Харьков (m3u8)<br>http://hls.simon.ua/live-HD/live/playlist_dvr.m3u8<br>1 Республиканский (DNR)<br>http://ott.inmart.tv:8081/18/index.m3u8<br>Новороссия ТВ (DNR)<br>http://ott.inmart.tv:8081/19/index.m3u8<br>Оплот ТВ (DNR)<br>http://ott.inmart.tv:8081/54/index.m3u8<br>Оплот 2 (DNR)<br>http://ott.inmart.tv:8081/17/index.m3u8<br>TK Юнион (DNR)<br>http://ott.inmart.tv:8081/35/index.m3u8<br>Radio ANNA-News (192k)<br>https://radio.anna-news.info:1443/live</div>
+
+<div align="right" style="margin-top:-20px;"><a href="#CloseExample" onclick="document.getElementById('example1').style.display='none';return false;" title="закрыть пример" style="color:#bababa;margin-right:5px;text-decoration:underline;">close</a></div>
+
+<textarea id="input" style="width:100%;height:200px;margin-top:10px;"></textarea><br>
+<input name="format" checked="checked" value="1" onchange="document.getElementById('submit').value='save as .m3u';" type="radio" />.m3u
+<input name="format" value="2" onchange="document.getElementById('submit').value='save as .xspf';" type="radio" style="margin-left:11px;" />.xspf
+<input name="format" value="3" onchange="document.getElementById('submit').value='save as .wpl';" type="radio" style="margin-left:11px;" />.wpl
+<input name="format" value="4" onchange="document.getElementById('submit').value='save as .pls';" type="radio" style="margin-left:11px;" />.pls
+<input name="format" value="5" onchange="document.getElementById('submit').value='save as azbox';" type="radio" style="margin-left:11px;" />azbox
+<!-- <input name="format" value="5" onchange="document.getElementById('submit').value='save as .asx';" type="radio" style="margin-left:11px;" /> .asx -->
+<input name="convert" id="convert" value="convert" onclick="javascript: Areator()" type="button" style="margin-left:11px;" />
+<br><br>
+&nbsp;Playlist:<br>
+<textarea id="output" name="output" style="width:100%;height:200px;margin-top:10px;" disabled="disabled"></textarea>
+<div style="float:left;"><input value="reset" type="reset" /><input id="submit" value="save as .m3u" type="submit" style="margin-left:5px;" /></div><div style="width:400px;height:35px;font-size:14px;font-family:Arial,Tahoma,sans-serif;color:#696969;margin-left:203px;margin-top:7px;" title="со второй попытки, сохраняется в выбранном формате, а не plcs.php !"><em>need second click for save (not plcs.php) playlist.m3u playlist.xspf playlist.wpl playlist.pls http_streams.txt !</em></div>
+</form>
+<br>
+<p align="right" style="margin-top:120px;"><a href="#OpenPlaylists" onclick="view('renew');return false" title="Самообновляемые плейлисты" style="color:#bababa;">Self-updating playlists</a></p>
+<div id="renew" style="display:none;font-size:13px;color:#000;border:dashed 1px #CCC;width:98%;text-align:right;padding:13px;">
+<div  style="text-align:left;">
+<a href="https://bit.ly/IpTvPortable501zip" target="_blank"><img src="/img/iptv.ico" alt="IPTV Player" title="Cкачать IPTV Player Portable 50.1 RUS 12.4 MB" width="18px" height="18px" style="margin:5px 0;float:left;margin:0 12px 0 0;" align="middle" /></a>
+<a href="https://raw.githubusercontent.com/sochisu/sochisu.github.io/main/SochiSU/SuSochi" alt="PlayList" title="плейлист для IPTV Player playlist" target="_blank"><span style="color:#e84747;">https://raw.githubusercontent.com/sochisu/sochisu.github.io/main/SochiSU/SuSochi</span></a><br><br>
+m3u <a href="http://bit.ly/susochi" alt="PlayList" title="плейлист для IPTV Player playlist" target="_blank"><span style="color:#e84747;"> http://bit.ly/susochi</span></a><a style="margin-left:60px;" href="http://u.to/PO7JIA" alt="PlayList" title="плейлист для IPTV Player playlist" target="_blank"><span style="color:#e84747;"> http://u.to/m3uSuSochi/PO7JIA</span></a><br>
+m3u <a href="https://bit.ly/SUSOCHI" alt="PlayList" title="плейлист для IPTV Player playlist" target="_blank"><span style="color:#e84747;"> https://bit.ly/SUSOCHI</span></a><a style="margin-left:30px;" href="https://u.to/PO7JIA" alt="PlayList" title="плейлист для IPTV Player playlist" target="_blank"><span style="color:#e84747;"> https://u.to/m3u/PO7JIA</span></a><br>
+m3u Page <a href="https://vk.com/page-6876882_56548330" alt="PlayList" title="Страница плейлиста ВКонтакте" target="_blank"><span style="color:#e84747;"> https://vk.com/page-6876882_56548330</span></a><br>
+web PlayList Pages <a href="http://sochi.byethost17.com" alt="PlayList" title="HTML страница плейлиста" target="_blank"><span style="color:#e84747;"> http://sochi.byethost17.com</span></a>
+</div>
+<span style="color:#e84747;">Сборники каналов iptv</span>
+<p style="padding-left:30px;">
+MultiPleks(ru) + Regions & Free UHD (only in RU) – https://u.to/wink/7PHJIA<br>
+http://iptv-2020.do.am/Free.m3u<br>
+https://dl.dropbox.com/s/3pkzmjmqxes3d13/iptv629.m3u8<br>
+</p>
+<span style="color:#e84747">Вебкамеры со всего Мира</span>
+<p style="padding-left:30px;">
+http://topplay.do.am/FreeWebCamsWorld.m3u<br>
+</p>
+<span style="color:#e84747;">Каналы дальнего зарубежья</span>
+<p style="padding-left:30px;">
+http://topplay.do.am/FreeWorldTV.m3u<br>
+</p>
+<span style="color:#e84747;">Iptv каналы Радио</span>
+<p style="padding-left:30px;">
+http://topplay.do.am/RadioTopPlay.m3u<br>
+<br>
+</p>
+<span style="color:#e84747;">Региональные каналы стран СНГ</span>
+<p style="padding-left:30px;">
+http://topplay.do.am/FreeBestTV.m3u<br>
+ZALA (only in BY) – https://pastebin.com/raw/wwYvET7A<br>
+=  https://u.to/zala/f1XJIA  =  https://u.to/f1XJIA<br>
+</p>
+<span style="color:#e84747;">Iptv плейлисты фильмов и мультфильмов</span>
+<p style="padding-left:30px;">
+<br>
+</p>
+<span style="color:#e84747;">Украинские каналы IP телевидения</span>
+<p style="padding-left:30px;">
+IнфоМарафон<br>
+</p>
+<span style="color:#e84747;">Каналы с низким битрейтом, для слабого интернета</span>
+<p style="padding-left:30px;">
+<br>
+</p>
+<a href="#ClosePlaylists" align="right" onclick="view('renew');return false" title="Закрыть спойлер" style="color:#bababa;margin-top:5px;">Close</a>
+</div>
+<script type="text/javascript">function view(n) {style = document.getElementById(n).style; style.display = (style.display == 'block') ? 'none' : 'block';}</script>
+<script type="text/javascript">function offon(n) {style = document.getElementById(n).style; style.display = (style.display == 'none') ? 'block' : 'none';}</script>
+<div style="margin-top:170px;text-align:justify;white-space:nowrap;"><p style="color:#303030;"><em><strong>Attention:</strong><br>No videos are hosted on this website. All content is copyright of their respective owners.<br>Copyright owners, links contained within this site lead to content located elsewhere on the web.<br>Please direct all copyright infringement issues to the companies that host these files.</em></p></div>
+</div>
+</td></tr></table>
+
+<div style="position:absolute;margin-top:50px;">
+<a href="https://info.flagcounter.com/7ngv" target="_blank" rel="nofollow"><img src="https://s04.flagcounter.com/count/7ngv/bg_FFFFFF/txt_000000/border_FFFFFF/columns_3/maxflags_90/viewers_Gadget+Online+Radio+BRS/labels_0/pageviews_1/flags_0/" alt="Flag Counter" width="2" height="2" style="border:0;border-color:white;"/></a></div>
+<div id="home"><p><a href="/" alt="Radio & TV" title="Home\Главная"><span style="color:#bababa;">&#9618;</span></a></p></div>
+<div id="div"><p><a href="https://kartina.tv/epg" onclick="window.open('https://kartina.tv/epg','newWin','width=1060px,height=1000px,left=100px,top=100px'+'scrollbars=yes,resizable=yes');return false;" alt="tp" title="t-prog.\отделить"><span style="color:#ccc;">т/п</span></a></p></div>
+<div id="asts"><p><a href="http://www.videolan.org/vlc" target="_blank" alt="VLC plug-in" title="plug-in"><span style="color:#ccc;">vlc</span></a></p></div>
+<div id="counter2" style="position:fixed;z-index:10;height:110px;width:30px;top:43%;left:0%;align:middle;text-align:center;">
+<a href="https://dl.dropbox.com/s/kt9yaeaqhyj8dqx/Firefox_Setup_52.0esr.zip" target="_blank"><img src="/img/firefox_original.png" alt="Mozilla Firefox browser" title="Cкачать Mozilla Firefox 52esr с поддержкой плагинов NPAPI (VLC, ...) в браузере!" width="16px" height="16px" style="margin:5px 0;" /></a>
+<p><a href="https://bit.ly/IpTvPortable501zip" target="_blank"><img src="/img/iptv.ico" alt="IPTV Player" title="Cкачать IPTV Player Portable 49.1.0 RUS 6.23 Мб" width="18px" height="18px" style="margin:5px 0;" /></a></p>
+<a href="https://dl.dropbox.com/s/9m0a7oxadv383xx/Google_Chrome_41.0.2272.101_Portable.zip" target="_blank"><img src="/img/google-chrome_icon.png" alt="Google Chrome browser" title="Download Google Chrome 41portable with NPAPI (VLC, ...) plug-ins support in browser!" width="16px" height="16px" style="margin:5px 0;" /></a>
+</div>
+<!-- <div id="list"><p><a href="http://pomoyka.win/trash/ttv-list/" rel="nofollow" alt="pl" title="Самообновляемые плейлисты Torrent TV для AcePlayer &#10132; Открыть URL... (скопировать на странице и вставить выбранную ссылку плейлиста в плеер)" target="_blank"><span style="color:#ccc;">&#181;</span></a></p></div> -->
+
+<div style="height:80px;"></div>
+</div>
+</div> <!-- Closes Wrapper -->
+<div id="footer">
+
+<table style="width:100%;">
+<tr><td>
+<div style="text-align:left;margin-left:2px;">
+<!--LiveInternet logo--><a href="https://www.liveinternet.ru/click"
+target="_blank" rel="nofollow"><img src="https://counter.yadro.ru/logo?26.1"
+title="LiveInternet"
+alt="" style="border:0" width="88" height="15"/></a><!--/LiveInternet-->
+</div>
+</td><td>
+<div style="text-align:right;margin-right:4px;">
+<!-- AddThis Button BEGIN -->
+<img src="https://s7.addthis.com/static/btn/v2/lg-share-ru.gif" width="125" height="16" alt="Bookmark and Share" style="border:0"/>
+<!-- AddThis Button END -->
+</div>
+</td></tr>
+</table>
+<div id="counter" style="color:#303030;"><p>&copy;&nbsp; <a href="https://sites.google.com/site/susochi" target="_blank" alt="ПреКрасный…Сочи Red Sochi SU SuSochi.Ga Gagra"><span style="color:#303030;">BeautifulRed…Sochi</span></a> &nbsp;<script language="javascript" type="text/javascript"><!--
+var d = new Date();var day=new Array("Sun","Mon","Tue","Wed","Thu","Fri","Sat");var month=new Array("01","02","03","04","05","06","07","08","09","10","11","12");document.write(day[d.getDay()]+" "+d.getDate()+"."+month[d.getMonth()]+"."+d.getFullYear()+"");
+//--></script>&nbsp; <a href="https://www.000webhost.com" target="_blank"><img alt="w" src="/img/000webhost.com.ico" title="Free Web Hosting" height="13px" width="13px" style="border:0;border-color:white;"/></a></p></div>
+<!--
+	Help – Ƀ   1HErW1F7Qs4hZKHrokfBXFLmXtWviK88pa
+	Помочь – ₽ https://yoomoney.ru/to/410013694885719
+	Радио и ТВ SuSochi.Ga --|++ SochiSU.GitHub.io
+-->
+</div> <!-- Closes Footer -->
+</body>
+</html>
